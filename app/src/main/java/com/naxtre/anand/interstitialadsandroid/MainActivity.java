@@ -45,7 +45,11 @@ public class MainActivity extends AppCompatActivity {
             }
         },3000);
 
-
+        try{
+        raiseException();}
+        catch (StringIndexOutOfBoundsException s){
+            FirebaseCrash.report(s);
+        }
 
     }
     private void requestNewInterstitial() {
@@ -57,5 +61,9 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         mInterstitialAd.loadAd(adRequest);
+    }
+
+    void raiseException() throws StringIndexOutOfBoundsException{
+        throw new StringIndexOutOfBoundsException();
     }
 }
