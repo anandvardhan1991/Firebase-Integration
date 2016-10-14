@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "796169617294",
+    "firebase_url": "https://interstitial-ads-android.firebaseio.com",
+    "project_id": "interstitial-ads-android",
+    "storage_bucket": "interstitial-ads-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796169617294:android:dd9fa9e3ce994e0c",
+        "android_client_info": {
+          "package_name": "com.naxtre.anand.interstitialadsandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796169617294-u27pspkip4on7d7sl542h8fro8pt0t3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDYUHzaZXJ-pXzrZlzD9TWonr7us6WUZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
